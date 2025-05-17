@@ -11,7 +11,5 @@ public class Passerotto extends Animale implements IVolante {
         System.out.println("cinguettio");
     }
 
-    public void vola() {
-        System.out.println("Sto volando!!!");
-    }
+
 }

@@ -11,8 +11,5 @@ public class Delfino extends Animale implements INuotante {
         System.out.println("frigge");
     }
 
-    public void nuota() {
-        System.out.println("Sto nuotando!!!");
-    }
 
 }

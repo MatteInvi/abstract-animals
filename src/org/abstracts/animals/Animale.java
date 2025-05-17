@@ -23,4 +23,12 @@ public abstract class Animale {
         this.nome = nome;
     }
 
+    public void vola() {
+        System.out.println("Sto volando!!!");
+    }
+
+    public void nuota() {
+        System.out.println("Sto nuotando!!!");
+    }
+
 }
