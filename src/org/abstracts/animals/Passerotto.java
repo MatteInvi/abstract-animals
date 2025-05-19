@@ -7,7 +7,7 @@ public class Passerotto extends Animale implements IVolante {
     }
 
     @Override
-    void verso() {
+    public void verso() {
         System.out.println("cinguettio");
     }
 

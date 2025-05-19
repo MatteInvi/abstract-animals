@@ -7,7 +7,7 @@ public class Aquila extends Animale implements IVolante {
     }
 
     @Override
-    void verso() {
+    public void verso() {
         System.out.println("Strido");
 
     }

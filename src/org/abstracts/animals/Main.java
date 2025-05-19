@@ -9,6 +9,7 @@ public class Main {
 
         System.out.println(aquila1.nome);
         aquila1.verso();
+        aquila1.dormi();
         faiVolare(aquila1);
         System.out.println(cane1.nome);
         cane1.verso();
@@ -22,11 +23,11 @@ public class Main {
 
     }
 
-    static void faiVolare(IVolante animale) {
+    public static void faiVolare(IVolante animale) {
         animale.vola();
     }
 
-    static void faiNuotare(INuotante animale) {
+    public static void faiNuotare(INuotante animale) {
         animale.nuota();
     }
 

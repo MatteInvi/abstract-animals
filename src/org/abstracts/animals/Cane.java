@@ -7,7 +7,7 @@ public class Cane extends Animale implements INuotante {
     }
 
     @Override
-    void verso() {
+    public void verso() {
         System.out.println("Abbaia");
     }
 

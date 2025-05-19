@@ -3,23 +3,23 @@ package org.abstracts.animals;
 public abstract class Animale {
     String nome;
 
-    public Animale(String nome) {
+    protected Animale(String nome) {
         this.nome = nome;
     }
 
-    void verso() {
+    protected void verso() {
         System.out.println("Verso generico");
     }
 
-    void dormi() {
+    protected void dormi() {
         System.out.println("Zzz");
     }
 
-    public String getNome() {
+    protected String getNome() {
         return this.nome;
     }
 
-    public void setNome(String nome) {
+    protected void setNome(String nome) {
         this.nome = nome;
     }
 
